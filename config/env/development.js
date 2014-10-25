@@ -2,7 +2,7 @@
 
 module.exports = {
   /*db: 'mongodb://localhost/mean-dev1',*/
-    db: 'mongodb://kiyothon:-}8A=293E:k\x7c@compass.0.mongolayer.com:10017,compass.1.mongolayer.com:10017/kiyothon-gotenyama',
+    db: 'mongodb://kiyothon:-}8A=293E:k\\x7c@compass.0.mongolayer.com:10017,compass.1.mongolayer.com:10017/kiyothon-gotenyama',
 	debug: 'true',
   mongoose: {
     debug: false
