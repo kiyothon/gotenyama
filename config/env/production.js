@@ -2,7 +2,7 @@
 
 module.exports = {
   /*db: 'mongodb://localhost/mean-prod',*/
-    db: 'mongodb://kiyothon:-}8A=293E:k\\x7c@candidate.40.mongolayer.com:10377,candidate.43.mongolayer.com:10092/kiyothon_gotenyama',
+    db: 'mongodb://drone:inokashirakoen@candidate.40.mongolayer.com:10377,candidate.43.mongolayer.com:10092/kiyothon_gotenyama',
   /**
    * Database options that will be passed directly to mongoose.connect
    * Below are some examples.
