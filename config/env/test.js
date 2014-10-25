@@ -1,8 +1,9 @@
 'use strict';
 
+
 module.exports = {
-  db: 'mongodb://localhost/mean-test',
-  port: 3001,
+  db: 'mongodb://' + process.env.WERCKER_MONGODB_HOST,
+  port: process.env.WERCKER_MONGODB_PORT,
   app: {
     name: 'MEAN - A Modern Stack - Test'
   },
